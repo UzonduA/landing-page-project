@@ -108,3 +108,58 @@ header{
     color: #1f2937;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 60px;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 180px;
+    font-weight: bold;
+}
+
+.call-to-action{
+    padding: 40px 150px;
+}
+
+.container-call-to-action{
+    background-color: #3882f6;
+    padding: 24px 32px;
+    border-radius: 10px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 240px;
+    padding-left: 50px;
+}
+    
+.action p{
+    max-width: 400px;
+
+}
+
+.button{
+    background-color: #3882f6;
+    padding: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 2px solid rgb(241, 237, 237);
+    border-radius: 10px;
+    width: 120px;
+}
